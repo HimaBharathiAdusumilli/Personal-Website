@@ -35,11 +35,8 @@
 }
 
 .list a:hover {
-    text-decoration:none;
     color:orange;
-    margin-top:20px;
-    margin-bottom:20%;
-    max-height:100%;
+    text-decoration:none;
 }
 
 .list p {
@@ -156,14 +153,23 @@
     text-decoration:none;
 }
 
-.p1 {
-    font-size:22px;
-    font-weight:600;
+.project a {
+    text-decoration:none;
+    color:black;
+}
+
+.project a:hover {
+    text-decoration:none;
+}
+
+.p1P {
+    font-size:19.5px;
+    font-weight:800;
     padding-top:1.5%;
 }
 
-.p2 {
-    font-size:20px;
+.p2P {
+    font-size:18px;
     font-weight:500;
     padding-right:3%;
     padding-left:3%;
@@ -191,7 +197,8 @@
 }
 
 .experience {
-    width:25%;
+    width:300px;
+    height:250px;
     background:white;
     margin-right:20px;
     margin-left:20px;
@@ -223,14 +230,16 @@
 }
 
 .p1E {
-    font-size:22px;
-    font-weight:600;
+    font-size:19.5px;
+    font-weight:800;
     padding-top:1.5%;
+    padding-right:3%;
+    padding-left:3%;
     color:black;
 }
 
 .p2E {
-    font-size:20px;
+    font-size:13px;
     font-weight:500;
     padding-right:3%;
     padding-left:3%;
@@ -279,6 +288,7 @@
 .footerLinks {
     display:flex;
     justify-content:center;
+    padding-top:1%;
 }
 
 .logo {
@@ -294,6 +304,11 @@
 .footerLinks img {
     opacity:0.5;
     border:solid grey;
+}
+
+.footerContent {
+    padding-top:3%;
+    font-size:22px;
 }
 
 @media screen and (max-width:1150px) {
@@ -497,7 +512,7 @@
 
     .aboutMeContent {
         width:60%;
-        color:white;
+        color:black;
         display:block;
         float:right;
         padding-right:10%;
@@ -528,7 +543,7 @@
         display:block;
         float:left;
         padding-left:5%;
-        padding-right:1%;
+        padding-right:3%;
         overflow:hidden;
     }
 
@@ -539,11 +554,11 @@
 
     .aboutMeContent {
         width:60%;
-        color:white;
+        color:black;
         display:block;
         float:right;
         padding-right:5%;
-        padding-left:1%;
+        padding-left:3%;
         font-size:21px;
         font-weight:700;
         overflow:hidden;
@@ -571,8 +586,8 @@
         max-width:100%;
         min-width:100%;
         display:block;
-        padding-left:2%;
-        padding-right:2%;
+        padding-left:3%;
+        padding-right:3%;
         padding-bottom:5%;
         margin:0 auto;
         overflow:hidden;
@@ -587,10 +602,10 @@
         width:100%;
         max-width:100%;
         min-width:100%;
-        color:white;
+        color:black;
         display:block;
-        padding-right:2%;
-        padding-left:2%;
+        padding-right:3%;
+        padding-left:3%;
         font-size:21px;
         font-weight:700;
         overflow:hidden;
@@ -636,7 +651,7 @@
         width:100%;
         max-width:100%;
         min-width:100%;
-        color:white;
+        color:black;
         display:block;
         padding-right:2%;
         padding-left:2%;
@@ -660,7 +675,7 @@
         min-width:100%;
         padding-top:5%;
         padding-bottom:5%;
-        background:#ededed;
+        background:#cccccc;
         overflow:hidden;
     }
 
@@ -677,7 +692,7 @@
 
     .project {
         width:40%;
-        background:#cccccc;
+        background:#e8e8e8;
         margin-right:20px;
         margin-left:20px;
         margin-top:10px;
@@ -686,15 +701,15 @@
         text-decoration:none;
     }
 
-    .p1 {
+    .p1P {
         font-size:25px;
         font-weight:600;
     }
 
-    .p2 {
+    .p2P {
         font-size:20px;
-        font-weight:600;
-        color:white;
+        font-weight:500;
+        color:black;
     }    
 }
 
@@ -705,7 +720,7 @@
         min-width:100%;
         padding-top:5%;
         padding-bottom:5%;
-        background:#ededed;
+        background:#cccccc;
         overflow:hidden;
     }
 
@@ -722,7 +737,7 @@
 
     .project {
         width:100%;
-        background:#cccccc;
+        background:#e8e8e8;
         margin-right:20px;
         margin-left:20px;
         margin-top:10px;
@@ -731,58 +746,19 @@
         text-decoration:none;
     }
 
-    .p1 {
+    .p1P {
         font-size:25px;
         font-weight:600;
     }
 
-    .p2 {
+    .p2P {
         font-size:20px;
-        font-weight:600;
-        color:white;
+        font-weight:500;
+        color:black;
     }    
 }
 
-@media screen and (max-width:1500px) {
-    .experiencesOrg {
-        width:100%;
-        max-width:100%;
-        min-width:100%;
-        display:flex;
-        justify-content:space-around;
-        padding-right:10%;
-        padding-left:10%;
-    }
 
-    .experience {
-        width:20%;
-        height:20%;
-        background:white;
-        margin-right:20px;
-        margin-left:20px;
-        margin-top:20px;
-        margin-bottom:20px;
-        text-align:center;
-        text-decoration:none;
-    }
-
-    .p1E {
-        font-size:16px;
-        font-weight:600;
-        padding-top:1.5%;
-        color:black;
-    }
-
-    .p2E {
-        font-size:12px;
-        font-weight:500;
-        padding-right:3%;
-        padding-left:3%;
-        padding-bottom:1%;
-        color:black;
-        font-weight:bold;
-    }
-}
 
 @media screen and (max-width:1300px) {
     .experiencesOrg {
@@ -791,14 +767,13 @@
         min-width:100%;
         display:flex;
         flex-wrap:wrap;
-        justify-content:space-around;
         padding-right:10%;
         padding-left:10%;
     }
 
     .experience {
-        width:60%;
-        height:30%;
+        width:300px;
+        height:250px;
         background:white;
         margin-right:20px;
         margin-left:20px;
@@ -809,56 +784,14 @@
     }
 
     .p1E {
-        font-size:22px;
-        font-weight:600;
+        font-size:19.5px;
+        font-weight:800;
         padding-top:1.5%;
         color:black;
     }
 
     .p2E {
-        font-size:20px;
-        font-weight:500;
-        padding-right:3%;
-        padding-left:3%;
-        padding-bottom:1%;
-        color:black;
-        font-weight:bold;
-    }
-}
-
-@media screen and (max-width:750px) {
-    .experiencesOrg {
-        width:100%;
-        max-width:100%;
-        min-width:100%;
-        display:flex;
-        flex-wrap:wrap;
-        justify-content:space-around;
-        padding-right:10%;
-        padding-left:10%;
-    }
-
-    .experience {
-        width:100%;
-        height:30%;
-        background:white;
-        margin-right:20px;
-        margin-left:20px;
-        margin-top:20px;
-        margin-bottom:20px;
-        text-align:center;
-        text-decoration:none;
-    }
-
-    .p1E {
-        font-size:22px;
-        font-weight:600;
-        padding-top:1.5%;
-        color:black;
-    }
-
-    .p2E {
-        font-size:20px;
+        font-size:13px;
         font-weight:500;
         padding-right:3%;
         padding-left:3%;
@@ -881,8 +814,8 @@
     }
 
     .experience {
-        width:100%;
-        height:30%;
+        width:214.29px;
+        height:178.57px;
         background:white;
         margin-right:20px;
         margin-left:20px;
@@ -893,24 +826,26 @@
     }
 
     .p1E {
-        font-size:19px;
-        font-weight:600;
+        font-size:13.5px;
+        font-weight:800;
         padding-top:1.5%;
+        padding-right:0.25%;
+        padding-left:0.25%;
         color:black;
     }
 
     .p2E {
-        font-size:16px;
+        font-size:9.5px;
         font-weight:500;
-        padding-right:3%;
-        padding-left:3%;
         padding-bottom:1%;
+        padding-right:0.25%;
+        padding-left:0.25%;
         color:black;
         font-weight:bold;
     }
 }
 
-@media screen and (max-width:350px) {
+@media screen and (max-width:340px) {
     .experiencesOrg {
         width:100%;
         max-width:100%;
@@ -923,8 +858,8 @@
     }
 
     .experience {
-        width:100%;
-        height:20%;
+        width:150px;
+        height:125px;
         background:white;
         margin-right:20px;
         margin-left:20px;
@@ -935,18 +870,20 @@
     }
 
     .p1E {
-        font-size:11px;
-        font-weight:600;
+        font-size:7.5px;
+        font-weight:800;
         padding-top:1.5%;
+        padding-right:0.25%;
+        padding-left:0.25%;
         color:black;
     }
 
     .p2E {
-        font-size:10px;
+        font-size:7px;
         font-weight:500;
-        padding-right:3%;
-        padding-left:3%;
         padding-bottom:1%;
+        padding-right:0.25%;
+        padding-left:0.25%;
         color:black;
         font-weight:bold;
     }
